@@ -30,7 +30,7 @@ function odliczanie(){
     var SecondsTo = Math.floor(eSecondsTo);
 
 
-    document.getElementById("timer").innerHTML = DayTo + "/" + HoursTo + "/" + MinutesTo + "/" + SecondsTo;
+    document.getElementById("time").innerHTML = DayTo + "/" + HoursTo + "/" + MinutesTo + "/" + SecondsTo;
     setTimeout("odliczanie()", 1000);
 }
 }
