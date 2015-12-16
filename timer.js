@@ -14,7 +14,7 @@ function pokazOdliczanie(){
     var minutes = today.getMinutes();
     var seconds = today.getSeconds();
 
-    var birthday =();
+    var birthday = new Date(2016,0,30,19,0,0,0);
     
 
     var anniversary  =  (birthday.getTime() -  today.getTime());
